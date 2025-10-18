@@ -7,8 +7,8 @@ This project uses **Python (Flask)** for the backend, **HTML** for the frontend,
  1. Initialize Python and HTML Code on Raspberry Pi
 
 a. Create the project folder  
+mkdir attendance
 
-   mkdir attendance
 b.Create the Python file
 Inside the attendance folder, create a new file named app.py.
 
