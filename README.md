@@ -1,109 +1,187 @@
-# Smart Attendance System
+# 🎯 Smart Attendance System  
 
-The **Smart Attendance System** is a simple and efficient web-based solution for managing and viewing attendance.  
-This project uses **Python (Flask)** for the backend, **HTML** for the frontend, **Google Apps Script** for data handling, and **MIT App Inventor** for the mobile viewer app.
+A **smart and efficient web-based attendance management system** built using **Python (Flask)**, **HTML**, **Google Apps Script**, and **MIT App Inventor**.  
+It allows easy attendance tracking, real-time syncing, and mobile viewing — ideal for schools, colleges, and offices.  
 
----<img width="391" height="370" alt="image" src="https://github.com/user-attachments/assets/fc638d94-c5d6-46ee-b935-720a8a506d20" />
+---
 
+## 🚀 Features
 
-## 1. Start the process
+✅ Simple and interactive **web interface**  
+✅ **Automatic attendance marking** using ID cards  
+✅ **Google Sheets integration** for storing attendance data  
+✅ Cross-platform **mobile viewer app** (MIT App Inventor)  
+✅ Secure **admin login** with credentials  
+✅ Works seamlessly on **Raspberry Pi** or any local server  
 
-a. Create the project folder  
-```bash
-mkdir attendance
-b. Create the Python file
-Inside the attendance folder, create a new file named app.py.
+---
 
-c. Create the Templates folder
-Inside the attendance folder, create a subfolder named templates.
+## 🛠️ Tech Stack
 
-d. Create the HTML file
-Inside the templates folder, create a file named index.html.
+| Component | Technology Used |
+|------------|----------------|
+| **Backend** | Python (Flask) |
+| **Frontend** | HTML, CSS |
+| **Database** | Google Sheets (via Apps Script) |
+| **Mobile App** | MIT App Inventor |
+| **Deployment** | Raspberry Pi / Localhost |
 
-e. Open Terminal and navigate to the folder
+---
 
-bash
-Copy code
-cd attendance
-f. Run the Python application
+## 📁 Project Structure
 
-bash
-Copy code
-python3 app.py
-g. Copy the local server link displayed in the terminal (e.g., http://127.0.0.1:5000 or http://<raspberrypi_ip>:5000).
-
-h. Paste the link into your browser.
-
-✅ The web interface will load successfully.
-
-2. Initialize Google Apps Script (script.js)
-a. Open Google Sheets or Google Drive.
-b. Click on Extensions → Apps Script.
-c. Paste your script.js code into the editor.
-d. Click Deploy → New deployment.
-e. Choose Web app as the deployment type.
-f. Give a name to your project.
-g. Under Access, select “Anyone”.
-h. Click Deploy and grant the required permissions.
-i. Copy the deployment URL to integrate with your web application.
-
-3. Initialize Mobile App (attendance_viewer.aia)
-a. Open MIT App Inventor.
-b. Log in with your Google account.
-c. Click Projects → Import project (.aia) from my computer.
-d. Select and upload the attendance_viewer.aia file.
-e. Click Build → App (provide QR code for .apk).
-f. Scan the generated QR code using your mobile device to install the APK.
-g. Open the installed mobile app.
-h. Log in with the default credentials:
-
-Username: admin
-
-Password: 12345
-
-✅ The mobile app will display attendance data.
-
-Project Structure
-pgsql
-Copy code
 attendance/
 ├── app.py
 ├── templates/
-│   └── index.html
+│ └── index.html
 └── README.md
-Requirements
-Raspberry Pi (or any system with Python 3)
 
-Python 3 installed
 
-Flask library (pip install flask)
 
-Google Account (for Apps Script)
+## ⚙️ Setup Instructions
 
-MIT App Inventor account
+### 1️⃣ Create the Project
 
-Web browser (Chrome, Firefox, etc.)
+```bash
+# Create project folder
+mkdir attendance
 
-Internet connection
+# Move inside the folder
+cd attendance
+Create the following:
 
-Default Login
+app.py → main Flask app
+
+templates/index.html → frontend web UI
+
+2️⃣ Run the Application
+
+python3 app.py
+Now open your browser and visit:
+🔗 http://127.0.0.1:5000
+or
+🔗 http://<raspberrypi_ip>:5000
+
+✅ The web interface will load successfully.
+
+3️⃣ Google Apps Script (script.js)
+Open Google Sheets → Extensions → Apps Script
+
+Paste your script.js code.
+
+Click Deploy → New deployment.
+
+Choose Web app as the type.
+
+Set Access → Anyone and click Deploy.
+
+Copy the Deployment URL to integrate with your web app.
+
+4️⃣ MIT App (attendance_viewer.aia)
+Open MIT App Inventor → https://appinventor.mit.edu
+
+Click Projects → Import Project (.aia)
+
+Upload attendance_viewer.aia
+
+Go to Build → App (.apk) and scan the generated QR Code
+
+Install and open the app
+
+Login using:
+
 Role	Username	Password
 Admin	admin	12345
 
-⚠️ It is strongly recommended to change the default password after setup for security.
+✅ The mobile app will show real-time attendance data.
 
-Notes
-Make sure Raspberry Pi and your mobile device are connected to the same network.
+🧩 Requirements
+Python 3
 
-Keep the Python server running to access the web interface and mobile app.
+Flask → pip install flask
 
-If you redeploy the Apps Script, update the deployment URL in your web or app code.
+Google Account (for Apps Script)
 
-You can modify the MIT App Inventor .aia file to customize the mobile UI.
+MIT App Inventor Account
 
-Author
+Internet Connection
+
+Web Browser (Chrome / Firefox)
+
+💾 Excel Sheet Integration
+📊 The system uses Google Sheets as the backend database.
+Your Excel Sheet (Google Sheet) acts as both input and output for attendance data.
+
+Each scan (via card or ID) automatically updates the sheet.
+
+Admin can view or edit data directly from the connected sheet.
+
+🔗 Example Integration:
+
+https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing
+
+🎨 UI Design
+💳 Scanning & Attendance Marking
+Modern, minimal web interface for scanning ID cards.
+
+Each successful scan marks attendance and syncs instantly with Google Sheets.
+
+Responsive layout suitable for PCs, tablets, and Raspberry Pi touchscreens.
+
+Action	Description
+Scan Card	Reads ID via card reader and verifies identity
+Mark Attendance	Automatically updates the connected Excel sheet
+Status Display	Shows “Present” / “Already Marked” instantly
+Admin Access	Allows viewing, editing, and exporting data
+
+<img width="754" height="510" alt="image" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" />
+
+
+🧾 Excel Sheet Link (Input & Output)
+All attendance data is synced here.
+✅ Automatically updates every scan.
+✅ Accessible to admin and teachers.
+✅ Supports timestamp and name-based logging.
+
+<img width="600" height="596" alt="image" src="https://github.com/user-attachments/assets/ac78a5ef-b2c3-4c94-9ccb-4375ca97f9f7" />
+
+
+
+
+📱 MIT App Output
+🖥️ Screen 1
+Login Screen – secure admin access
+
+<img width="358" height="519" alt="image" src="https://github.com/user-attachments/assets/f70762f8-6420-4ffa-bc48-fbc601a2019b" />
+
+
+📋 Screen 2
+Dashboard – quick view of attendance summary
+
+<img width="362" height="508" alt="image" src="https://github.com/user-attachments/assets/901ba51a-6066-4879-b2d8-70c201d91a6b" />
+
+
+👥 Screen 3
+Attendance List – student-wise 
+
+<img width="368" height="546" alt="image" src="https://github.com/user-attachments/assets/3eceb024-809e-456c-af27-34ec8c793f30" />
+
+⚙️ Screen 4
+Attendance List – lectures-wise 
+<img width="366" height="550" alt="image" src="https://github.com/user-attachments/assets/48f60bdc-527a-4b56-9daa-8f35586e3343" />
+
+
+(You can add screenshots here later for a more attractive presentation.)
+
+⚠️ Security Notes
+🔒 Always change the default password (admin / 12345) after installation.
+🔒 Use private Google Sheets links for better data safety.
+
+👨‍💻 Developer Info
 Project: Smart Attendance System
-
 Developed by: Sandesh Pokharkar
+📧 Email: sandeshpokharkar5248@gmail.com
 
-Email: sandeshpokharkar5248@gmail.com
+🖥️ Preview
+🎨 Clean, responsive web UI for attendance management
+📱 Mobile viewer app synced in real-time with Google Sheets
