@@ -197,7 +197,7 @@ Attendance List – lectures-wise
 🔒 Always change the default password (admin / 12345) after installation.
 🔒 Use private Google Sheets links for better data safety.
 
-👨‍💻 Developer Info
+👨‍💻 Developer Info<br>
 Project: Smart Attendance System
 Developed by: Sandesh Pokharkar
 📧 Email: sandeshpokharkar5248@gmail.com
