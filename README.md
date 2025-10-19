@@ -136,7 +136,7 @@ Admin Access	Allows viewing, editing, and exporting data<br>
 
 <img width="754" height="510" alt="Scanning Interface" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" /><br><br>
 
-🧾 Excel Sheet Link (Input & Output)
+🧾 Excel Sheet Link (Input & Output)<br><br>
 All attendance data is synced here.
 
 ✅ Automatically updates every scan
@@ -147,7 +147,7 @@ All attendance data is synced here.
 
 <img width="600" height="596" alt="Excel Sheet Output" src="https://github.com/user-attachments/assets/ac78a5ef-b2c3-4c94-9ccb-4375ca97f9f7" /><br><br>
 
-📱 MIT App Output
+📱 MIT App Output<br><br>
 
 🖥️ Screen 1 – Login Screen
 
