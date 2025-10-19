@@ -39,7 +39,7 @@ attendance/
 
 
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions<br><br>
 
 ### 1️⃣ Create the Project
 
@@ -52,7 +52,7 @@ Create the following:
 
 app.py → main Flask app
 
-templates/index.html → frontend web UI
+templates/index.html → frontend web UI<br><br>
 
 2️⃣ Run the Application
 bash
@@ -64,7 +64,7 @@ Open your browser and visit:
 
 🔗 http://<raspberrypi_ip>:5000
 
-✅ The web interface will load successfully.
+✅ The web interface will load successfully.<br><br>
 
 3️⃣ Google Apps Script (script.js)
 Open Google Sheets → Extensions → Apps Script
@@ -77,7 +77,7 @@ Choose Web app as the type
 
 Set Access → Anyone and click Deploy
 
-Copy the Deployment URL to integrate with your web app
+Copy the Deployment URL to integrate with your web app<br><br>
 
 4️⃣ MIT App (attendance_viewer.aia)
 Open MIT App Inventor → https://appinventor.mit.edu
@@ -95,9 +95,9 @@ Login using:
 Role	Username	Password
 Admin	admin	12345
 
-✅ The mobile app will show real-time attendance data.
+✅ The mobile app will show real-time attendance data.<br><br>
 
-🧩 Requirements
+##🧩 Requirements<br>
 Python 3
 
 Flask → pip install flask
@@ -108,10 +108,12 @@ MIT App Inventor Account
 
 Internet Connection
 
-Web Browser (Chrome / Firefox)
+Web Browser (Chrome / Firefox)<br><br>
 
-💾 Excel Sheet Integration
+##💾 Excel Sheet Integration<br><br>
+
 📊 The system uses Google Sheets as the backend database.
+
 Your Excel Sheet (Google Sheet) acts as both input and output for attendance data.
 
 Each scan (via card or ID) automatically updates the sheet
@@ -122,11 +124,11 @@ Admin can view or edit data directly from the connected sheet
 https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing
 
 
-🎨 UI Design
-💳 Scanning & Attendance Marking
+##🎨 UI Design<br><br>
+###💳 Scanning & Attendance Marking<br>
 Modern, minimal web interface for scanning ID cards. Each successful scan marks attendance and syncs instantly with Google Sheets. Responsive layout suitable for PCs, tablets, and Raspberry Pi touchscreens.
 
-Action	Description
+Action	Description<br>
 Scan Card	Reads ID via card reader and verifies identity
 Mark Attendance	Automatically updates the connected Excel sheet
 Status Display	Shows “Present” / “Already Marked” instantly
@@ -134,7 +136,7 @@ Admin Access	Allows viewing, editing, and exporting data
 
 <img width="754" height="510" alt="Scanning Interface" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" /><br><br>
 
-🧾 Excel Sheet Link (Input & Output)
+##🧾 Excel Sheet Link (Input & Output)
 All attendance data is synced here.
 
 ✅ Automatically updates every scan
@@ -145,7 +147,7 @@ All attendance data is synced here.
 
 <img width="600" height="596" alt="Excel Sheet Output" src="https://github.com/user-attachments/assets/ac78a5ef-b2c3-4c94-9ccb-4375ca97f9f7" /><br><br>
 
-📱 MIT App Output
+##📱 MIT App Output
 
 🖥️ Screen 1 – Login Screen
 
@@ -169,11 +171,11 @@ Dashboard – quick view of attendance summary
 🔒 Always change the default password (admin / 12345) after installation<br>
 🔒 Use private Google Sheets links for better data safety<br><br>
 
-👨‍💻 Developer Info<br>
+##👨‍💻 Developer Info<br>
 Project: Smart Attendance System<br>
 Developed by: Sandesh Pokharkar<br>
 Email: sandeshpokharkar5248@gmail.com<br>
 
-🖥️ Preview<br>
+##🖥️ Preview<br>
 🎨 Clean, responsive web UI for attendance management<br>
 📱 Mobile viewer app synced in real-time with Google Sheets<br>
