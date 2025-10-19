@@ -3,7 +3,8 @@
 The **Smart Attendance System** is a simple and efficient web-based solution for managing and viewing attendance.  
 This project uses **Python (Flask)** for the backend, **HTML** for the frontend, **Google Apps Script** for data handling, and **MIT App Inventor** for the mobile viewer app.
 
----
+---<img width="391" height="370" alt="image" src="https://github.com/user-attachments/assets/fc638d94-c5d6-46ee-b935-720a8a506d20" />
+
 
 ## 1. Start the process
 
