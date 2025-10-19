@@ -42,7 +42,7 @@ attendance/
 
 ### 1️⃣ Create the Project
 
-```bash
+
 # Create project folder
 mkdir attendance
 
@@ -185,3 +185,9 @@ Developed by: Sandesh Pokharkar
 🖥️ Preview
 🎨 Clean, responsive web UI for attendance management
 📱 Mobile viewer app synced in real-time with Google Sheets
+
+
+
+
+
+
