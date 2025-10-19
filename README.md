@@ -146,6 +146,8 @@ Mark Attendance	Automatically updates the connected Excel sheet
 Status Display	Shows “Present” / “Already Marked” instantly
 Admin Access	Allows viewing, editing, and exporting data
 
+
+
 <img width="754" height="510" alt="image" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" />
 
 
@@ -165,11 +167,13 @@ All attendance data is synced here.
 🖥️ Screen 1
 Login Screen – secure admin access
 
+
 <img width="358" height="519" alt="image" src="https://github.com/user-attachments/assets/f70762f8-6420-4ffa-bc48-fbc601a2019b" />
 
 
 📋 Screen 2
 Dashboard – quick view of attendance summary
+
 
 <img width="362" height="508" alt="image" src="https://github.com/user-attachments/assets/901ba51a-6066-4879-b2d8-70c201d91a6b" />
 
@@ -177,10 +181,12 @@ Dashboard – quick view of attendance summary
 👥 Screen 3
 Attendance List – student-wise 
 
+
 <img width="368" height="546" alt="image" src="https://github.com/user-attachments/assets/3eceb024-809e-456c-af27-34ec8c793f30" />
 
 ⚙️ Screen 4
 Attendance List – lectures-wise 
+
 
 <img width="366" height="550" alt="image" src="https://github.com/user-attachments/assets/48f60bdc-527a-4b56-9daa-8f35586e3343" />
 
