@@ -121,18 +121,18 @@ Each scan (via card or ID) automatically updates the sheet
 Admin can view or edit data directly from the connected sheet
 
 🔗 Example Integration:
-https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing<br><br>
 
 
-🎨 UI Design<br><br>
+🎨 UI Design<br><br><br>
 💳 Scanning & Attendance Marking<br>
 Modern, minimal web interface for scanning ID cards. Each successful scan marks attendance and syncs instantly with Google Sheets. Responsive layout suitable for PCs, tablets, and Raspberry Pi touchscreens.
 
 Action	Description<br>
-Scan Card	Reads ID via card reader and verifies identity
-Mark Attendance	Automatically updates the connected Excel sheet
-Status Display	Shows “Present” / “Already Marked” instantly
-Admin Access	Allows viewing, editing, and exporting data
+Scan Card	Reads ID via card reader and verifies identity<br>
+Mark Attendance	Automatically updates the connected Excel sheet<br>
+Status Display	Shows “Present” / “Already Marked” instantly<br>
+Admin Access	Allows viewing, editing, and exporting data<br>
 
 <img width="754" height="510" alt="Scanning Interface" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" /><br><br>
 
