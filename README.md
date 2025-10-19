@@ -97,7 +97,7 @@ Admin	admin	12345
 
 ✅ The mobile app will show real-time attendance data.<br><br>
 
-##🧩 Requirements<br>
+🧩 Requirements<br>
 Python 3
 
 Flask → pip install flask
@@ -110,7 +110,7 @@ Internet Connection
 
 Web Browser (Chrome / Firefox)<br><br>
 
-##💾 Excel Sheet Integration<br><br>
+💾 Excel Sheet Integration<br><br>
 
 📊 The system uses Google Sheets as the backend database.
 
@@ -124,8 +124,8 @@ Admin can view or edit data directly from the connected sheet
 https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing
 
 
-##🎨 UI Design<br><br>
-###💳 Scanning & Attendance Marking<br>
+🎨 UI Design<br><br>
+💳 Scanning & Attendance Marking<br>
 Modern, minimal web interface for scanning ID cards. Each successful scan marks attendance and syncs instantly with Google Sheets. Responsive layout suitable for PCs, tablets, and Raspberry Pi touchscreens.
 
 Action	Description<br>
@@ -136,7 +136,7 @@ Admin Access	Allows viewing, editing, and exporting data
 
 <img width="754" height="510" alt="Scanning Interface" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" /><br><br>
 
-##🧾 Excel Sheet Link (Input & Output)
+🧾 Excel Sheet Link (Input & Output)
 All attendance data is synced here.
 
 ✅ Automatically updates every scan
@@ -147,7 +147,7 @@ All attendance data is synced here.
 
 <img width="600" height="596" alt="Excel Sheet Output" src="https://github.com/user-attachments/assets/ac78a5ef-b2c3-4c94-9ccb-4375ca97f9f7" /><br><br>
 
-##📱 MIT App Output
+📱 MIT App Output
 
 🖥️ Screen 1 – Login Screen
 
@@ -171,11 +171,11 @@ Dashboard – quick view of attendance summary
 🔒 Always change the default password (admin / 12345) after installation<br>
 🔒 Use private Google Sheets links for better data safety<br><br>
 
-##👨‍💻 Developer Info<br>
+👨‍💻 Developer Info<br>
 Project: Smart Attendance System<br>
 Developed by: Sandesh Pokharkar<br>
 Email: sandeshpokharkar5248@gmail.com<br>
 
-##🖥️ Preview<br>
+Preview<br>
 🎨 Clean, responsive web UI for attendance management<br>
 📱 Mobile viewer app synced in real-time with Google Sheets<br>
