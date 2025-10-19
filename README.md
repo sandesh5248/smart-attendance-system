@@ -5,7 +5,7 @@ This project uses **Python (Flask)** for the backend, **HTML** for the frontend,
 
 ---
 
-## 1. Initialize Python and HTML Code on Raspberry Pi
+## 1. Start the process
 
 a. Create the project folder  
 ```bash
