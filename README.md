@@ -54,6 +54,8 @@ app.py → main Flask app
 
 templates/index.html → frontend web UI
 
+
+
 2️⃣ Run the Application
 
 python3 app.py
@@ -63,6 +65,8 @@ or
 🔗 http://<raspberrypi_ip>:5000
 
 ✅ The web interface will load successfully.
+
+
 
 3️⃣ Google Apps Script (script.js)
 Open Google Sheets → Extensions → Apps Script
@@ -76,6 +80,8 @@ Choose Web app as the type.
 Set Access → Anyone and click Deploy.
 
 Copy the Deployment URL to integrate with your web app.
+
+
 
 4️⃣ MIT App (attendance_viewer.aia)
 Open MIT App Inventor → https://appinventor.mit.edu
@@ -95,6 +101,8 @@ Admin	admin	12345
 
 ✅ The mobile app will show real-time attendance data.
 
+
+
 🧩 Requirements
 Python 3
 
@@ -108,6 +116,8 @@ Internet Connection
 
 Web Browser (Chrome / Firefox)
 
+
+
 💾 Excel Sheet Integration
 📊 The system uses Google Sheets as the backend database.
 Your Excel Sheet (Google Sheet) acts as both input and output for attendance data.
@@ -119,6 +129,8 @@ Admin can view or edit data directly from the connected sheet.
 🔗 Example Integration:
 
 https://docs.google.com/spreadsheets/d/<your_sheet_id>/edit?usp=sharing
+
+
 
 🎨 UI Design
 💳 Scanning & Attendance Marking
@@ -135,6 +147,7 @@ Status Display	Shows “Present” / “Already Marked” instantly
 Admin Access	Allows viewing, editing, and exporting data
 
 <img width="754" height="510" alt="image" src="https://github.com/user-attachments/assets/bae6354e-8961-410e-976e-53a46a3f18a0" />
+
 
 
 🧾 Excel Sheet Link (Input & Output)
@@ -168,6 +181,7 @@ Attendance List – student-wise
 
 ⚙️ Screen 4
 Attendance List – lectures-wise 
+
 <img width="366" height="550" alt="image" src="https://github.com/user-attachments/assets/48f60bdc-527a-4b56-9daa-8f35586e3343" />
 
 
